@@ -72,7 +72,8 @@ export function Login() {
                 <Link to={"/signUp"}>Sign up</Link>
                 <button
                   type="button"
-                  className="btn btn-primary"
+                  className="btn-btn-primary"
+                  id="enterlogueo"
                   onClick={() => handleSubmit()}
                 >
                   Send
