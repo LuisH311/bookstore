@@ -1,0 +1,275 @@
+.App {
+
+  height: 100vh;
+  width: 100%;
+  padding: 0 4px;
+}
+
+.Container-Todo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+ .Container2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  /* border: 1px solid black; */
+  box-shadow: 3px 3px 3px 3px rgb(206, 206, 206);
+ }
+ .card2{
+  padding: 8%;
+  align-items: center;
+  width: 50%;
+  border-radius: 5px;
+  border: 1px solid black;
+  margin: auto;
+  box-shadow: 3px 3px 3px 3px rgb(206, 206, 206);
+ }
+ #Titulo{
+  text-align: center;
+ }
+
+ #add{
+    border-radius: 5px;
+    border: none;
+    padding: 6px;
+    background-color: rgb(31, 0, 143);
+    color: white;
+    cursor: pointer;
+ }
+ .back{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+   border-radius: 5px;
+   border: none;
+   padding: 6px;
+   background-color: rgb(0, 0, 0);
+   color: white;
+   cursor: pointer; 
+   width: 100%;
+  }
+a{
+  text-decoration: none;
+}
+.login-container {
+  max-width: 500px;
+  width: 90%;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.card {
+  width: 100%;
+}
+
+.button {
+  width: 100%;
+  margin: 10px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #eee;
+}
+
+.nav-admin {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+#logout-admin {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 40px;
+}
+
+.iconModal:hover {
+  color: rgb(4, 107, 170);
+}
+
+.iconDelete:hover {
+  color: rgb(186, 20, 20);
+}
+
+.iconEdit:hover {
+  color: rgb(11, 142, 57);
+}
+
+.contenedor-primary {
+  border: 1px solid black;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.primero {
+  padding: 7px;
+}
+
+.container-admin {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-create {
+  display: flex;
+  padding: 20px;
+  gap: 10px;
+  width: 100%;
+}
+
+.fancy-checkbox input[type="checkbox"],
+.fancy-checkbox .checked {
+    display: none;
+}
+ 
+.fancy-checkbox input[type="checkbox"]:checked ~ .checked
+{
+    display: inline-block;
+}
+ 
+.fancy-checkbox input[type="checkbox"]:checked ~ .unchecked
+{
+    display: none;
+}
+
+
+
+.container-costado1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  /* border: 1px solid black; */
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.costado1{
+  border: 1px solid black;
+  padding: 25px;
+  border-radius: 5px;
+}
+.screen {
+  max-width: 800px;
+  width: 100%;
+  height: 57vh;
+  overflow-y: scroll;
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+
+.Botones-chat form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Botones-chat form input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Botones-chat form button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Botones-chat form button.boton1 {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.Botones-chat form button.boton1:hover {
+  background-color: #0d47a1;
+}
+.Botones-chat form button.boton2 {
+  background-color: #f34545;
+  color: #fff;
+}
+
+.Botones-chat form button.boton2:hover {
+  background-color: #a71616;
+}
+.texto1{
+  width: 50%;
+  display: flex;
+  
+}
+.boton1{
+  width: 50%;
+}
+.boton2{
+  width: 50%;
+}
+
+#boton-logout{
+  background-color: #f34545;
+  color: #fff;
+}
+
+
+#boton-logout:hover{
+  background-color: #9d1d1d;
+  color: #fff;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  margin-bottom: 15px
+}
+

@@ -1,0 +1,36 @@
+.contentForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+.boxForm{
+    width: 350px;
+    padding: 20px 15px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 46px 0px rgba(0, 0, 0, 0.2);
+}
+
+.buttonsForm{
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonsForm button{
+    padding: 6px 30px;
+    border-radius: 20px;
+}
+
+.error{
+    background-color: red !important;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .contentForm{
+        justify-content: center;
+    }
+}
