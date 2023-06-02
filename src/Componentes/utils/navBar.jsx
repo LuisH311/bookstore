@@ -25,6 +25,7 @@ class navBar extends Component {
                 <li className="nav-item ">
                   <a
                     className="nav-link active"
+                    id="prueba1"
                     aria-current="page"
                     href="#aboutIt"
                   >
@@ -32,18 +33,21 @@ class navBar extends Component {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#aboutUs">
+                  <a className="nav-link" href="#aboutUs" 
+                  id="prueba2">
                     About the team
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#contactUs">
+                  <a className="nav-link" href="#contactUs"
+                  id="prueba3">
                   Contact Us
                   </a>
                 </li>
               </ul>
               <a
                 className="btn btn-primary"
+                id="logueo"
                 role="button"
                 aria-current="page"
                 href="/login"
